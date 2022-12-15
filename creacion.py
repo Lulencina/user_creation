@@ -20,7 +20,7 @@ create.click()
 time.sleep(3)
 
 username = driver.find_element(By.ID, "name")
-username.send_keys("Valeria Pérez")
+username.send_keys("Valeria Lencina")
 username.send_keys(Keys.ENTER)
 time.sleep(3)
 
@@ -51,7 +51,7 @@ requirement = 'EMAIL'
 compareLabels()
 
 email1 = driver.find_element(By.ID, "email")
-email1.send_keys("valelu9@hotmail.com")
+email1.send_keys("lulencina@hotmail.com")
 email1.send_keys(Keys.ENTER)
 time.sleep(3)
 
